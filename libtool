@@ -316,6 +316,7 @@ old_archive_cmds="\$AR \$AR_FLAGS \$oldlib\$oldobjs~\$RANLIB \$tool_oldlib"
 
 # A language specific compiler.
 CC="gcc"
+>>>>>>> ce99a3bd... patched build system
 
 # Is the compiler the GNU compiler?
 with_gcc=yes

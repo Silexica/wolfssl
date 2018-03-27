@@ -1589,21 +1589,21 @@ AM_CFLAGS = -D_POSIX_THREADS  -DHAVE_THREAD_LS -DNDEBUG -pthread -DTFM_TIMING_RE
 AM_CPPFLAGS =  -fvisibility=hidden
 AM_DEFAULT_VERBOSITY = 0
 AM_LDFLAGS = 
-AR = ar
+AR ?= ar
 AUTOCONF = ${SHELL} /projects/wolfssl/build-aux/missing autoconf
 AUTOHEADER = ${SHELL} /projects/wolfssl/build-aux/missing autoheader
 AUTOMAKE = ${SHELL} /projects/wolfssl/build-aux/missing automake-1.15
-AWK = mawk
-CC = gcc
+AWK = gawk
+CC ?= gcc
 CCAS = gcc
 CCASDEPMODE = depmode=gcc3
 CCASFLAGS = 
 CCDEPMODE = depmode=gcc3
-CFLAGS =  -Werror -Wno-pragmas -Wall -Wno-strict-aliasing -Wextra -Wunknown-pragmas --param=ssp-buffer-size=1 -Waddress -Warray-bounds -Wbad-function-cast -Wchar-subscripts -Wcomment -Wfloat-equal -Wformat-security -Wformat=2 -Wmaybe-uninitialized -Wmissing-field-initializers -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wnormalized=id -Woverride-init -Wpointer-arith -Wpointer-sign -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-overflow=1 -Wswitch-enum -Wundef -Wunused -Wunused-result -Wunused-variable -Wwrite-strings -fwrapv 
+CFLAGS =  -Werror -Wno-pragmas -Wall -Wno-strict-aliasing -Wextra -Wunknown-pragmas --param=ssp-buffer-size=1 -Waddress -Warray-bounds -Wbad-function-cast -Wchar-subscripts -Wcomment -Wfloat-equal -Wformat-security -Wformat=2 -Wmissing-field-initializers -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wpointer-sign -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-overflow=1 -Wswitch-enum -Wundef -Wunused -Wunused-result -Wunused-variable -Wwrite-strings -fwrapv 
 CFLAG_VISIBILITY = -fvisibility=hidden
 CPP = gcc -E
 CPPFLAGS =  -fvisibility=hidden
-CXX = g++
+CXX ?= g++
 CXXCPP = g++ -E
 CXXDEPMODE = depmode=gcc3
 CXXFLAGS = -g -O2
@@ -1667,7 +1667,7 @@ PATH_SEPARATOR = :
 PTHREAD_CC = gcc
 PTHREAD_CFLAGS = -pthread
 PTHREAD_LIBS = 
-RANLIB = ranlib
+RANLIB ?= ranlib
 SED = /bin/sed
 SET_MAKE = 
 SHELL = /bin/bash
