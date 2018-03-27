@@ -1,0 +1,38 @@
+make[1]: Entering directory '/projects/wolfssl'
+Makefile:2345: update target 'aclocal.m4' due to: m4/ax_am_macros.m4 m4/ax_check_compile_flag.m4 m4/ax_print_to_file.m4 m4/visibility.m4
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /home/eusse/Development/Releases/2018.03-Beta/workspace/wolfssl-manual/wolfssl/build-aux/missing aclocal-1.15 -I m4
+Makefile:2345: recipe for target 'aclocal.m4' failed
+make[1]: Leaving directory '/projects/wolfssl'
+error    test passed!
+base64   test passed!
+asn      test passed!
+MD5      test passed!
+SHA      test passed!
+SHA-224  test passed!
+SHA-256  test passed!
+SHA-384  test passed!
+SHA-512  test passed!
+SHA-3    test passed!
+Hash     test passed!
+HMAC-MD5 test passed!
+HMAC-SHA test passed!
+HMAC-SHA224 test passed!
+HMAC-SHA256 test passed!
+HMAC-SHA384 test passed!
+HMAC-SHA512 test passed!
+HMAC-SHA3   test passed!
+GMAC     test passed!
+Chacha   test passed!
+POLY1305 test passed!
+ChaCha20-Poly1305 AEAD test passed!
+AES      test passed!
+AES192   test passed!
+AES256   test passed!
+AES-GCM  test passed!
+RANDOM   test passed!
+RSA      test passed!
+DH       test passed!
+ECC      test passed!
+logging  test passed!
+mutex    test passed!
+memcb    test passed!
